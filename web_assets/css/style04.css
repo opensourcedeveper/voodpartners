@@ -1,0 +1,623 @@
+
+@font-face {
+    font-family: proximanova;
+    src: url("../assets/Proxima-Nova/Proxima-Nova-Font.otf");
+  }
+  html {
+    scroll-behavior: smooth !important;
+  }
+  body{
+    overflow-x: hidden !important;
+  }
+ *{
+      font-family: "proximanova";
+  }
+  /* @font-face {
+    font-family: hindBold;
+    src: url("../assets/Hind/Hind-Bold.ttf");
+  } */
+  h1,h2,h3,h4,h5,h6, .navbar-brand{
+    /* font-family: "hindBold"; */
+}
+p{
+    opacity: .7;
+}
+.d-grid{
+    display: grid;
+}
+.f10{
+  font-size: 13px;
+}
+.f11{
+  font-size: 14px;
+}
+.f12{
+  font-size: 15px;
+}
+.f13{
+    font-size: 13px;
+  }
+  .f14{
+    font-size: 14px;
+  }
+  .f15{
+    font-size: 15px;
+  }
+  .f16{
+    font-size: 16px;
+  }
+  .f17{
+    font-size: 17px;
+  }
+  .f18{
+    font-size: 18px;
+  }
+  .f19{
+    font-size: 19px;
+  }
+  p{
+    font-size: 16px;
+  }
+  a:hover{
+      text-decoration: none;
+  }
+  section{
+    display: block;
+}
+.op05{
+    opacity: .5;
+}
+.prime-color{
+  color: #54D2FF !important;
+}
+.second-color{
+  color: #282E2D;
+}
+.bg-prime{
+    background-color: #54D2FF !important;
+  }
+  .bg-sec{
+    background-color: #ECF2FE !important;
+  }
+  .clrfff{
+    color: #fff;
+  }
+  .clr000{
+    color: #000;
+  }
+.mxidth{
+    max-width: 1796px;
+    margin: 0 auto;
+}
+
+h1{
+  font-size: 27px !important;
+}
+.f-address ul li{
+  opacity: .7;
+}
+.f-links ul li{
+  opacity: .7;
+}
+.mainPadding{
+  padding: 0 60px
+}
+/*  */
+
+.topNav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.topNav .navbar-nav .nav-link{
+  color: #000;
+  padding: 0 17px;
+}
+.topNav .navbar-nav .nav-link:hover{
+  color:#01D1FF;
+}
+.topNav .button {
+	display: inline-block;
+	margin: 4px 2px;
+	/* background-color: #444; */
+	font-size: 14px;
+	padding-left: 32px;
+	padding-right: 32px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #54D2FF;
+	text-decoration: none;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.topNav .button:hover {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+}
+
+.topNav .search-container {
+	position: relative;
+	display: inline-block;
+	margin: 4px 2px;
+	height: 50px;
+	width: 50px;
+	vertical-align: bottom;
+}
+
+.topNav .mglass {
+	display: inline-block;
+	pointer-events: none;
+	/* -webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg); */
+}
+
+.topNav .searchbutton {
+	position: absolute;
+	font-size: 45px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.topNav .searchbutton span i{
+  color: #54D2FF;
+  font-size: 35px;
+}
+.topuserButton{
+  color: #54D2FF;
+  /* font-size: 35px; */
+  width: 40px;
+  padding: 0 0px 0 14px;
+}
+.topSearchButton {
+  width: 33px;
+  padding: 0 0px;
+  margin: 0 0 0 16px;
+}
+.topNav .search:focus + .topNav .searchbutton {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+}
+
+.topNav .search {
+	position: absolute;
+	left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+	background-color: #eadede;
+	outline: none;
+	border: none;
+	padding: 0;
+	width: 0;
+	height: 100%;
+	z-index: 10;
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+}
+
+.topNav .search:focus {
+	width: 363px; /* Bar width+1px */
+	padding: 0 16px 0 0;
+}
+
+.topNav .expandright {
+	left: auto;
+	right: 49px; /* Button width-1px */
+}
+
+.topNav .expandright:focus {
+	padding: 0 0 0 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.sec2{
+  padding: 42px 51px;
+  box-shadow: 2px 2px 19px 0px #d9d5d5;
+  margin: -122px 100px 0 100px;
+  z-index: 999;
+  position: relative;
+  background: #fff;
+}
+.sec2 h2{
+  border-bottom: 1px solid#e6e6e6;
+padding: 0 0px 22px 0;
+}
+.sec2Box{
+  padding: 25px 39px 25px 0px;
+}
+.sec2Box img{
+  /* font-size: 52px; */
+  /* color: red; */
+  padding: 16px 0;
+}
+
+.sec2Img img{
+  width: 100%;
+  height: 346px;
+}
+#carouselExampleFade .carousel-item img{
+  height: 550px;
+}
+#carouselExampleFade .carousel-control-next, #carouselExampleFade .carousel-control-prev{
+  visibility: hidden;
+}
+.sec3{
+  /* padding: 35px 35px; */
+}
+.sec3Text h2
+  {
+    font-size: 50px;
+  }
+.trendSec{
+  /* padding: 35px 35px; */
+}
+
+
+.trendSec h3 {
+  background: #54D2FF;
+  position: relative;
+  width: 170px;
+  z-index: 999 !important;
+  font-size: 21px;
+  color: #fff;
+  padding: 10px 26px;
+  letter-spacing: 1px;
+}
+.trendSec h3:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 45px solid white;
+  border-left: 42px solid #54D2FF;
+}
+
+
+
+
+
+
+
+/* .trendSec h3{
+  padding: 11px 17px;
+  color: #fff;
+  background-color: #54D2FF;
+  max-width: max-content;
+  border-bottom: 1px solid #54D2FF;
+} */
+.trendSec .card{
+  padding: 10px 10px;
+}
+.trendSec .card .card-body{
+  padding: 19px 0;
+}
+.trendSec .card .card-body h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+.trendSec .card a{
+  float: right;
+  font-size: 14px;
+}
+/*  */
+
+
+.testMonial .card {
+  margin: 0 auto;
+}
+.testMonial .card .carousel-item {
+  height: 350px;
+}
+.testMonial .card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.testMonial .card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.testMonial .card .carousel-caption p {
+  line-height: 30px;
+}
+.testMonial .card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.testMonial .card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.testMonial .card .carousel-control-prev, .testMonial .card .carousel-control-next {
+  /* hover: #ef4c23; */
+  color: #3d3d3d !important;
+  opacity: 1 !important;
+}
+
+/* .carousel-item {
+  transition: transform 2.6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 2.6s;
+} */
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: .6s;
+  transition-property: opacity;
+ }
+ 
+ .carousel-fade  .carousel-item.active,
+ .carousel-fade  .carousel-item-next.carousel-item-left,
+ .carousel-fade  .carousel-item-prev.carousel-item-right {
+   opacity: 1;
+ }
+ 
+ .carousel-fade .active.carousel-item-left,
+ .carousel-fade  .active.carousel-item-right {
+  opacity: 0;
+ }
+ 
+ .carousel-fade  .carousel-item-next,
+ .carousel-fade .carousel-item-prev,
+ .carousel-fade .carousel-item.active,
+ .carousel-fade .active.carousel-item-left,
+ .carousel-fade  .active.carousel-item-prev {
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+ }
+/*  */
+
+
+/*  */
+
+.sec5rightBox1{
+  padding: 0px 0px;
+  background:#01D1FF;
+  color:#fff;
+  display: flex;
+}
+.sec5rightBox2{
+  padding: 0px 0px;
+  background: #012A58;
+  color:#fff;
+  display: flex;
+}
+.sec5rightBox1 .div1{
+  border: 1px solid#01D1FF; 
+  border-right: none;
+  border-top: none;
+}
+.sec5rightBox1 .div2{
+  padding: 40px 30px;
+}
+.sec5rightBox2 .div2{
+  padding: 40px 30px;
+}
+.sec5rightBox2 .div1{
+  border: 1px solid#01D1FF; 
+  border-right: none;
+  border-bottom: none;
+}
+/* .sec5rightBox2 .div2{
+  padding: 40px 30px;
+} */
+.sec5bg{
+  background-image: url('../img/Group 8.png');
+  background-position: center center;
+  /* background: rgb(245, 40, 145); */
+  padding: 0;
+  
+}
+.sec5bgText{
+  position: relative;
+  /* padding: 0 0px; */
+  height: 100%;
+  background-color: rgba(0, 0, 0,0.5);
+}
+.sec5bgText div{
+  position: absolute;
+  /* padding: 0 45px; */
+  bottom: 0;
+  color: #fff;
+}
+/* .sec5bgText div h3{
+  background: #54D2FF;
+  max-width: max-content;
+  padding: 7px 28px;
+  margin: 22px 0;
+  border-radius: 5px;
+} */
+
+.sec5bgText div h3 {
+  background: #54D2FF;
+  position: relative;
+  width: 136px;
+  z-index: 999 !important;
+  font-size: 21px;
+  color: #fff;
+  padding: 10px 26px;
+  letter-spacing: 1px;
+  border: 1px solid #54D2FF;
+}
+.sec5bgText div h3:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 45px solid #012A58;
+  border-left: 42px solid #54D2FF;
+}
+
+
+.testMonial h2{
+  border-bottom: 2px solid #54D2FF;
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 10px 50px;
+}
+
+
+
+
+
+
+
+.sec3 img{
+  height: 520px;
+}
+.sec3 .imgDiv{
+  /* padding: 0 30px; */
+}
+.sec3Text ul li i{
+  border: 2px solid #54D2FF;
+  border-radius: 50%;
+  padding: 2px 1px 2px 3px;
+  font-size: 11px;
+  margin-right: 5px;
+  color: #54D2FF;
+
+}
+.secFooter{
+  background-color: #222222;
+}
+.secftRight{
+  float: right;
+}
+.secftRight ul{
+  display: flex;
+}
+.secftRight ul li{
+  padding: 0 12px;
+}
+.secftRight ul li a{
+ color: #ffff;
+}
+.secftRight ul li a i{
+  border: 1px solid #54D2FF;
+  padding: 10px 12px 7px 11px;
+border-radius: 50%;
+font-size: 17px;
+  color: #000;
+  background: #54D2FF;
+}
+.secftSocialIcon{
+  right: 10px;
+  position: absolute;
+}
+.imgDivClients{
+  text-align: center;
+}
+.imgDivClients img{
+  margin: 0 auto;
+}
+
+.subsSec h3{
+  padding: 55px 0 45px 0;
+  text-align: center;
+  color: #fff;
+}
+.subsSec .sSInput{
+  padding: 55px 0 31px 0;
+  width: 70%;
+  margin: auto;
+}
+.subsSec .sSInput .input-group-append{
+  margin-left:12px;
+}
+.subsSec .sSInput .input-group-append button{
+  font-size: 17px;
+  padding: 8px 31px;
+  color: #54D2FF;
+  background: #fff;
+  border: none;
+}
+
+
+
+
+
+
+
+/*  */
+/*  */
+/*  */
+
+
+
+@media screen and (max-width: 767px){
+  .mainPadding{
+    padding: 0 10px;
+  }
+  .sec2{
+    margin: -22px 0px 0 0px;
+    padding: 25px 10px;
+  }
+  .sec5bgText{
+    display: none;
+  }
+  .testMonial .card .carousel-item{
+    
+    height: 420px;
+  }
+}
+@media screen and (min-width: 768px) and  (max-width: 991px){
+  /* .sec2{
+    margin: -122px 0px 0 0px;
+  }
+  .topNav .navbar-nav .nav-item{
+    padding: 7px 0;
+  }
+  .topNav .navbar-nav ul{
+    padding-top: 25px 0;
+    overflow: scroll;
+  } */
+} 
+
+@media screen and (max-width: 991px){
+  .sec2{
+    margin: -22px 0px 0 0px;
+  }
+  .topNav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .topNav .navbar-nav .nav-item{
+    padding: 7px 0;
+  }
+  .topNav ul{
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    overflow: scroll;
+  }
+  .trendSec .card{
+    margin-bottom: 25px;
+  }
+}
